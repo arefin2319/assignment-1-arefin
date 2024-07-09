@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 150px;
+}
+.name{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 28px;
+font-weight: 800;
+line-height: 33px;
+letter-spacing: 0%;
+text-align: left;
+}
+.resume-btn{
+    width: 228px;
+    height: 58px;
+    left: 1046px;
+    top: 38px;
+border: 1px solid rgb(13, 19, 33);
+border-radius: 8px;
+opacity: 0.8;
+text-align: center;
+color: #0D1321;
+font-weight: 600;
+font-size: 20px;
+}
+/* banner style starts here */
+.banner-container{
+    display: flex;
+    flex-direction: column;
+  justify-content: center;
+   align-items: center;
+    background-image: url(/styles/assets/Hero-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-container img{
+    width: 240.28px;
+    height: 240px;
+    left: 257.67%;
+    right: -257.67%;
+    top: 0%;
+    bottom: 0%;
+    margin: 26px auto;
+    }
+.banner-container h1{
+    width: 998px;
+height: 136px;
+color: rgb(13, 19, 33);
+font-size: 48px;
+font-weight: 800;
+line-height: 68px;
+letter-spacing: 0%;
+text-align: center;
+}
+.banner-container p{
+    width: 852px;
+height: 52px;
+margin: 24px 0px;
+color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+}
+.contact-btn{
+    width: 208px;
+    height: 66px;
+padding: 21px 24px 21px 24px;
+margin: 0px 10px;
+color: rgb(255, 255, 255);
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+border-radius: 8px;
+background: rgb(13, 19, 33);
+}
+/* banner style ends here */
