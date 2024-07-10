@@ -255,5 +255,49 @@ padding: 12px;
 }
 /* My inspiration ends here */
 
+/* My target starts here */
+.target-section-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 154px;
+    background-color: #FFFFFF;
+}
+.target-section-container h3{
+    width: 852px;
+    height: 39px;
+    margin: 24px 0px;
+    color: rgb(13, 19, 33);
+font-size: 32px;
+font-family: Azeret Mono;
+font-weight: 800;
+line-height: 37px;
+text-align: center;
+}
+
+.target-section-container p{
+    width: 852px;
+    height: 52px;
+    margin: 24px 0px;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-family: Azeret Mono;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+}
+.target-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px 24px 10px 24px;
+    
+}
+    
+
+/* My target ends here */
+
 
 
