@@ -468,4 +468,21 @@ letter-spacing: 0%;
 text-align: center;
 }
 /* last-section ends here */
+.footer-design{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.signature{
+    width: 556px;
+    height: 15px;
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+}
 
