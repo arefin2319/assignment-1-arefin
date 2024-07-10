@@ -260,13 +260,16 @@ padding: 12px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    margin-top: 154px;
+    justify-content: space-around;
+    width: 1140px;
+    height: 460px;
+    margin: 70px 150px 70px 150px;
     background-color: #FFFFFF;
+    gap: 20px;
 }
 .target-section-container h3{
-    width: 852px;
-    height: 39px;
+    width: 400px;
+    height: 15px;
     margin: 24px 0px;
     color: rgb(13, 19, 33);
 font-size: 32px;
@@ -277,25 +280,128 @@ text-align: center;
 }
 
 .target-section-container p{
-    width: 852px;
-    height: 52px;
-    margin: 24px 0px;
+    width: 440px;
+    height: 15px;
+    margin: 30px auto;
     color: rgb(13, 19, 33);
     font-size: 16px;
     font-family: Azeret Mono;
     font-weight: 400;
     line-height: 26px;
     text-align: center;
+  
 }
 .target-content {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    margin: 10px 24px 10px 24px;
+    margin: 70px 150px 70px 150px;
+    
     
 }
+.left-target{
+    width: 300px;
+    height: 100px;
+margin: 30px 24px;
+border-radius: 16px;
+background: rgba(255, 76, 30, 0.05);
+}
+.left-target h4{
+border-radius: 16px;
+background: rgba(255, 76, 30, 0.05);
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 800;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+}
+.left-target p{
+    width: 284px;
+height: 52px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    background: rgba(255, 76, 30, 0.05);
     
+}
+.learn-more{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+text-decoration-line: underline;
+margin: 24px 0;
+}
+.middle-target{
+    width: 300px;
+    height: 100px;
+margin: 30px 24px;
+border-radius: 16px;
+background: rgba(255, 76, 30, 0.05);
+}
+.middle-target h4{
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    }
+    .middle-target p{
+        width: 284px;
+    height: 52px;
+        color: rgb(13, 19, 33);
+        font-family: Azeret Mono;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0%;
+        text-align: left;
+        background: rgba(255, 76, 30, 0.05);
+    }
+        .right-target{
+            width: 300px;
+            height: 100px;
+        margin: 30px 24px;
+        border-radius: 16px;
+        background: rgba(255, 76, 30, 0.05);
+        }
+        .right-target h4{
+            border-radius: 16px;
+            background: rgba(255, 76, 30, 0.05);
+            color: rgb(13, 19, 33);
+            font-family: Azeret Mono;
+            font-size: 24px;
+            font-weight: 800;
+            line-height: 36px;
+            letter-spacing: 0%;
+            text-align: left;
+        }
+        .right-target p{
+            width: 284px;
+        height: 52px;
+            color: rgb(13, 19, 33);
+            font-family: Azeret Mono;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 26px;
+            letter-spacing: 0%;
+            text-align: left;
+            background: rgba(255, 76, 30, 0.05);
+        }
 
 /* My target ends here */
 
