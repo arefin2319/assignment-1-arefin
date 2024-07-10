@@ -406,4 +406,66 @@ background: rgba(255, 76, 30, 0.05);
 /* My target ends here */
 
 
+/* last-section starts here */
+.last-section-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/styles/assets/handshake.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 1140px;
+    height: 460px;
+    margin: 70px 150px 70px 150px;
+     
+
+}
+.last-section-container h4{
+    
+height: 36px;
+color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: center;
+}
+.last-section-container p{
+    width: 606px;
+    height: 52px;
+    color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+}
+.input-box{
+
+    width: 548px;
+    height: 50px;
+box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 8px;
+background: rgb(255, 255, 255);
+}
+.submit-btn{
+    width: 100px;
+height: 37px;
+padding: 10px 10px 10px 10px;
+border-radius: 8px;
+background: rgb(255, 255, 255);
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 600;
+line-height: 10px;
+letter-spacing: 0%;
+text-align: center;
+}
+/* last-section ends here */
 
